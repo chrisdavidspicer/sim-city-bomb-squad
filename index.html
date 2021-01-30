@@ -3,11 +3,28 @@
 <head>
     <meta charset="utf-8">
     <title>Sim City Bomb Squad</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
     <main>
-        <p>Hello World!</p>
-        <!-- Your code here -->
+        <div id="bomb-container">
+            <div>
+                <p id="timer">0:00:30</p>
+            </div>
+
+            <div id="wirebox">
+                <img id="blue" src="img/uncut-blue-wire.png" />
+                <img id="green" src="img/uncut-green-wire.png" />
+                <img id="red" src="img/uncut-red-wire.png" />
+                <img id="white" src="img/uncut-white-wire.png" />
+                <img id="yellow" src="img/uncut-yellow-wire.png" />
+            </div>
+
+            <div>
+                <button id="reset" type="button">reset</button>
+            </div>
+        </div>
     </main>
+    <script src="js/bomb.js"></script>
 </body>
 </html>

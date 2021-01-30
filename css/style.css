@@ -8,4 +8,28 @@ body {
 main {
     width: 100vw;
     height: 100vh;
+    background-image: url(../img/simcity.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bomb-container {
+    background-color: black;
+    width: 175px;
+    height: 400px;
+}
+
+#timer {
+    color: red;
+    font-size: 1.5em;
+}
+
+#reset {
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
